@@ -118,8 +118,10 @@ parraf{
     width: 80%;
     display: inline-block;
 }
-img{
-    font-size: 40px !important;
+.im1{
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 110%;
     color: #FF5274;
     font-weight: 700 !important;
 }
@@ -130,6 +132,7 @@ h5{
 }
 
 .row{
+    margin-top: 60px;
     margin-right: -15px;
     margin-left: -15px;
 }
