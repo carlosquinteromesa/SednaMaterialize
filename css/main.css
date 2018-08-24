@@ -132,9 +132,22 @@ h5{
 }
 
 .row{
-    margin-top: 60px;
-    margin-right: -15px;
     margin-left: -15px;
+}
+.botones{
+    text-align: center;
+}
+.flecha{
+    position: absolute;
+    color: white;
+    padding-top: 90px;
+    animation: efect 900ms alternate infinite linear;
+}
+
+@keyframes efect {
+    0% { transform: translateY(0px);}
+    50% { transform: translateY(-10px);}
+    100% { transform: translateY(0px);}
 }
 .page-footer {
     padding-top: 20px;
