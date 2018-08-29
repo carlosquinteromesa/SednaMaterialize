@@ -9,14 +9,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-  main {
+main {
     flex: 1 0 auto;
 }
 nav {
     color: #fff;
-    background-color:transparent !important;
     box-shadow: 0px 0px transparent;
-     width: 100%;
+    width: 100%;
+    transition: all .3s linear;
 }
 ul li a:hover{
     background-color: transparent;
@@ -47,7 +47,7 @@ nav>.container>.row{
     border: 1.5px white solid;    
 }
 .logueo>li:nth-child(2)>a:hover{
-    border: #FF5274 solid;
+    border: #FF5274 1.5px solid;
 
 }
 .tit{
@@ -105,9 +105,7 @@ p{
     color: rgba(28,54,83,.6);
     padding-bottom: 20px;
 }
-parraf{
-    width: 33,333333%;
-}
+
 .icono{
     vertical-align: top;
     padding: 6px 0 0;
@@ -144,13 +142,143 @@ h5{
     animation: efect 900ms alternate infinite linear;
 }
 
+
 @keyframes efect {
     0% { transform: translateY(0px);}
     50% { transform: translateY(-10px);}
     100% { transform: translateY(0px);}
 }
-.page-footer {
-    padding-top: 20px;
+.img1{
+    margin-top: 15px;
+    margin-right: 1px;
+    color: #FF5274;
+    font-weight: 700 !important;
+    width: 48%;
+}
+.a{
+    
+    width: 90%;
+}
+.b{
+    background: #F3F4F8;
+    padding: 120px 0;
+}
+h3{   
+    color: #3D4351;
+    margin: 0 0 20px;
+    font-size: 24px;
+
+}
+.lista1{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #E6E9EA;
+}
+.row .col.offset-s7 {
+    margin-left: 58.3333333333%;
+}
+
+.devices{
+    position: relative;
+}
+
+.ipad-wrap {
+    margin-top: 135px;
+    width: 706px;
+    height: 1002px;
+    background: url(../img/ipad-device.png) center center no-repeat;
+    
+}
+.iphone-wrap {
+    width: 304px;
+    height: 620px;
+    background: url(../img/iphone6.png) center center no-repeat;
+    position: absolute;
+    left: 530px;
+    bottom: 129px;
+}
+.device-showcase {
+    position: absolute;
+    right: 61%;
+    top: 1040px;
+}
+.contepor{
+    background: white;
+    position: relative;
+    margin-top: -20px;
+    padding: 120px;
+    overflow: hidden;
+
+}
+.l{
+    padding: 0px 24px;
+    font-size: 13px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.z{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28,54,83,.6);
+    padding-bottom: 20px;
+}
+
+.contepor .laptop{
+    position: absolute;
+    width: 915px;
+    height: 540px;
+    background: url(../img/macbook-pro.png) center center no-repeat;
+    top: 114px;
+    left: 50%;
+}
+.nav-scroll{
+    height: 91px;
+    background-color: #232731 !important;
+}
+nav>.container{
+    transition: all .3s linear;
+}
+.nav-scroll>.container{
+    padding: 13.5px 0;
+    border-bottom: none;
+}
+.pangri{
+    margin-top: 120px;
+    background: url(../img/polygonal-bg.jpg) center center no-repeat #333844;
+    padding-bottom: 190px;
+    position: relative;
+}
+.pangri h2 {
     color: #fff;
-    background-color: #3D4351 !important;
+    margin: 0 0 20px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.pangri i {
+    font-family: Nunito,sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #F69D52;
+    vertical-align: top;
+    margin-left: -8px;
+    font-style: normal;
+    text-align: center;
+}   
+.pangri p {
+    color: #ACB1B4;
+    text-align: center;
+}
+.pangri .logo-placeholder {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    bottom: -285px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.col{
+    padding: 95px 0;
 }
